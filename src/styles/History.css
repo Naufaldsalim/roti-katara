@@ -1,0 +1,59 @@
+.history-section {
+  padding: 50px 0;
+}
+
+.history-section .content {
+  color: var(--Black-Font, #243036);
+  text-align: center;
+  font-family: "Plus Jakarta Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  margin-right: 20px;
+  height: 100%;
+  justify-content: center; 
+}
+
+.content h2 {
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 48px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: normal;
+  background: linear-gradient(90deg, #CE4B17 5.54%, #B69B77 93.49%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.history-section .small-text {
+  color: var(--Black-Font, #243036);
+  text-align: center;
+  font-family: "Plus Jakarta Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.history-section .divider {
+  width: 160px;
+  height: 4px;
+  background: linear-gradient(90deg, #CE4B17 5.54%, #B69B77 93.49%);
+}
+
+.history-section .image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.align-items-center {
+  display: flex;
+  align-items: center; /* Centers the content vertically within the row */
+}

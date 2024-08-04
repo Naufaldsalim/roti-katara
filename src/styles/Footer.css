@@ -1,0 +1,112 @@
+.footer-section {
+    padding: 50px 0;
+    text-align: center;
+    background: var(--Black-Font, #243036);
+    color: #FFFFFF;
+    font-family: "Playfair Display";
+    color: var(--White, #FFF);
+    text-align: center;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  
+  .footer-section .small-text {
+    font-size: 14px;
+    color: #FFFFFF;
+    color: var(--White, #FFF);
+    text-align: center;
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 60%;
+  }
+  
+  .footer-section .location-text {
+    color: #FFFFFF;
+    margin: 20px 0;
+    opacity: 0.8;
+    color: var(--White, #FFF);
+    font-family: "Plus Jakarta Sans";
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 33px; 
+  }
+  
+  .footer-section .order-button {
+    background-color: #CE4B17;
+    border: none;
+    margin-bottom: 20px;
+    padding: 16px 64px;
+    gap: 10px;
+    border-radius: 30px;
+    border: 0px solid var(--White, #FFF);
+    font-family: "Plus Jakarta Sans";
+    box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.11);
+    transition: background-color 0.3s ease;
+  }
+
+.footer-section .order-button:hover {
+    background: #C73900;
+}
+
+.footer-section .order-button:focus {
+    background: #C73900;
+}
+
+.footer-section .order-button:active {
+    background: #A62F00; 
+}
+  
+  .footer-section .divider {
+    width: 100%;
+    height: 1px;
+    background-color: #FFFFFF;
+    opacity: 20%;
+    margin: 20px 0;
+  }
+  
+  .footer-section .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-section .footer-logo {
+    height: 48px;
+  }
+  
+  .footer-section .social-media a {
+    margin: 0 10px;
+    margin-top: 0px;
+  }
+
+  .footer-section .social-media {
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  
+  .footer-section .social-media a:hover {
+    color: #CE4B17;
+  }
+  
+  .footer-section .copyright-text {
+    margin-top: 20px;
+    color: #FFFFFF;
+    opacity: 80%;
+    color: var(--White, #FFF);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Plus Jakarta Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  

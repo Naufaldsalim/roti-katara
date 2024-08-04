@@ -1,0 +1,70 @@
+.testimoni-section {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.testimoni-section h2 {
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 48px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: normal;
+  background: linear-gradient(90deg, #CE4B17 5.54%, #B69B77 93.49%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.testimoni-section .testi-img-container {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.testimoni-section .divider {
+  width: 160px;
+  height: 4px;
+  background: linear-gradient(90deg, #CE4B17 5.54%, #B69B77 93.49%);
+  margin: 0 auto 20px;
+}
+
+.testimoni-section .testimoni-image {
+  width: auto;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .testimoni-section .testimoni-image {
+    width: 400px; 
+  }
+}
+
+.testimoni-section .testi-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px; 
+}
+
+.testimoni-section .testimoni-item {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border: 1px solid var(--Stroke, #FFE3B4);
+  background: var(--White, #FFF);
+  box-shadow: 0px 4px 30px 0px rgba(184, 158, 97, 0.05);
+  width: calc(100% / 2 - 16px); 
+}
+
+@media (min-width: 768px) {
+  .testimoni-section .testimoni-item {
+    width: calc(100% / 3 - 16px); 
+  }
+}
+
+.testimoni-section .testimoni-name {
+  font-weight: bold;
+  color: #555;
+}

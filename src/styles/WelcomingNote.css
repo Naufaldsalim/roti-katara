@@ -1,0 +1,33 @@
+.welcoming-note-section {
+  margin-top: 40px;
+    padding: 50px 0;
+    text-align: center;
+  }
+
+  .welcoming-note-section h2 {
+    color: var(--Black-Font, #243036);
+    text-align: center;
+    font-family: "Playfair Display";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  
+  .welcoming-note-section .divider {
+    width: 60px;
+    height: 2px;
+    background: var(--Black-Font, #243036);
+    margin: 0 auto 20px;
+  }
+  
+  .welcoming-note-section p {
+    color: var(--Black-Font, #243036);
+    text-align: center;
+    font-family: "Plus Jakarta Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 70%;
+  }
